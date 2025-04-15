@@ -1,0 +1,951 @@
+  body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }  
+ 
+  .back img{
+    position: absolute;
+    z-index: -1;
+    background-color: #FFFFFF;
+    width: 100%;
+    left: -5px;
+    top: -5px;
+  }
+
+  .Wright img{
+    position: absolute;
+    right: 0px;
+    top: -5px;
+    z-index: -1;
+    width: auto;
+    height: 1000px;
+  }
+
+/* Header styles */
+
+  .header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    z-index: 1;
+  }
+
+  .header .logo img {
+    position: absolute;
+    width: 169px;
+    z-index: 10;
+    left: 55px;
+    padding-top: 15px;
+  }
+  
+  .header .nav ul {
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    left: 368px;
+  }
+  
+  .header .nav ul li a {
+    text-decoration: none;
+    color: #272D4E;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .header .buttons {
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    right: 45px;
+  }
+  
+  .header .log button {
+    padding: 10px 20px;
+    margin-left: 20px;
+    border: none;
+    cursor: pointer;
+    color: #272D4E;
+    background: none;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .header .get button {
+    padding: 10px 20px;
+    margin-left: 20px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #7854F7;
+    border-radius: 5%;
+    font-weight: 500;
+  }
+
+  .header .search img {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    margin-top: 70%;
+  }
+
+  /* Section 1 */
+  .section-1 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    gap: 20px;
+  }
+  
+  .text-content {
+    position: absolute;
+    max-width: 40%;
+    top: 100px;
+    left: 220px;
+  }
+  
+  .text-content h1 {
+    font-size: 85px;
+    font-weight: 700;
+    color: #272D4E;
+  }
+  
+  .text-content p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #94A2B3;
+  }
+  
+  .sec1-buttons {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+  }
+  
+  #start {
+    padding: 15px 30px;
+    font-size: 18px;
+    align-items: center;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    background-color: #7854F7;
+    height: 72px;
+    top: 45%;
+    width: 267px;
+  }
+
+  #custom{
+    display: flex;
+    border: none;
+    background: none;
+    font-size: 18px;
+    align-items: center;
+    color: #94A2B3;
+    gap: 3px;
+  }
+
+  .sec1-buttons b{
+    color: #299EF3;
+    font-size: 18px;
+  }
+  
+  .sec1-image img {
+    position: absolute;
+    height: 829.1438598632812px;
+    right: -5px;
+    top: 100px;
+  }
+
+  .section-2 {
+    position: relative;
+    top: 900px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-2 h1{
+    position: absolute;
+    text-align: center;
+    font-size: 55px;
+    max-width: 25%;
+    color: #272D4E;
+    font-weight: 700;
+  }
+
+  .section-2 > div{
+    position: absolute;
+    top: 100px;
+    padding: 0px 114px;
+  }
+
+  .top-box{
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    width: 33%;
+    top: 0px;
+    right: 70px;
+    }
+  
+  #left{
+    display: inline-block;
+    width: 643px;
+    position: relative;
+  }
+
+  .centre-box{
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    width: 33%;
+    top: 100px;
+  }
+
+  #middle{
+    display: inline-block;
+    width: 530px;
+    position: relative;
+  }
+
+  .bottom-box{
+    display: inline-block;
+    text-align: left; 
+    position: relative;
+    width: 33%;
+    top: 150px;
+    
+  }
+
+  #right{
+    display: inline-block;
+    width: 594px;
+    position: relative;
+  }
+
+  .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #272D4E;
+    padding-left: 106px;
+  }
+
+  .description{
+    max-width: 430px;
+    font-size: 18px;
+    color: #94A2B3;
+    padding-left: 106px;
+  }
+
+  .blue{
+    display: flex;
+    font-size: 18px;
+    color: #299EF3;
+    padding-left: 106px;
+  }
+
+  /*Section 3 */
+
+  .section-3{
+    position: relative;
+    justify-content: space-between;
+    top: 2004px;
+  }
+
+  .sec3-back img{
+    width: 100.9%;
+    left: -10px;
+    position: absolute;
+    top: 100px;
+    z-index: -1;
+  }
+
+  .sec3-top img{
+    top: 50px;
+    position: absolute;
+    width: 520px;
+    left: 250px;
+  }
+
+  #dev{
+    position: absolute;
+    left: 800px;
+    top: 150px;
+  }
+
+  #know{
+    position: absolute;
+    left: 595px;
+    top: 700px;
+  }
+
+  .sec3-bottom img{
+    position: absolute;
+    width: 520px;
+    left: 1050px;
+    top: 648px;
+  }
+
+  .sec3-text{
+    max-width: 480px;
+    text-align: left;
+    position: absolute;
+  }
+
+  .sec3-text h1{
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+    max-width: 480px;
+  }
+
+  .sec3-text p{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
+  .green{
+    border-radius: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 18px;
+    background-color: #70C217;
+    width: 256px;
+    height: 44px;
+    position: relative;
+    padding-top: 20px;
+  }
+
+  .testimonial {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    top: 3300px;
+  }
+    
+  .background4{
+      position: absolute;
+      height: 1220px;
+      width: 100%;
+      background-image: url('section4-bacground.png');
+      background-size: contain;   
+      background-position: top; 
+      z-index: -1;
+  }
+  .text{
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      margin: 20px; 
+      padding-top: 50px;
+      text-align: center;
+      max-width: 30%;
+      font-weight: 700;
+      font-size:55px;
+      line-height: 70px;
+      color: #272D4E;
+  }
+  .centerimage img{       
+      max-width: 48%;            /* Make image responsive */
+      max-height: auto;          /* Set max height of image */
+      object-fit: contain;
+      margin-top: 100px;
+  }
+
+  .right1{
+      position: absolute;
+      top: 120px;
+      left: 71%;
+      width: 7%;
+  }
+  .right2{
+      position: absolute;
+      top: 320px;
+      left: 80%;
+      width: 11%;
+  }
+  .right3{
+      position: absolute;
+      top: 700px;
+      left: 74%;
+      width: 6%;
+  }
+  .left1{
+      position: absolute;
+      top: 120px;
+      left: 20%;
+      width: 8%;
+  }
+  .left2{
+      position: absolute;
+      top: 400px;
+      left: 5%;
+      width: 7%;
+  }
+  .left3{
+      position: absolute;
+      top: 700px;
+      left: 13%;
+      width: 7%;
+  }
+  .people{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      margin-top: 300px;
+      width: 100%;
+      top: 3300px;
+  }
+  .background5{
+      position: absolute;    
+      top: 250px;
+      width: 90%;
+      height: 100%;
+      background-image: url('section5-background.png');
+      background-size: contain;   
+      background-position: top center; 
+      z-index: -1;
+
+  }
+  .section5-text{
+      max-width: 670px;
+  }
+  .section5-text h1{
+      text-align: center;
+      font-weight: 700;
+      font-size: 55px;
+      line-height: 70px;
+      color: #272D4E;
+  }
+  .section5-text p{
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 25px;
+      letter-spacing: 0%;
+      text-align: center;
+      color: #94A2B3;
+  }
+
+  .teamphoto{
+      max-width: 1350px;
+  }
+  .teamphoto img {
+      width: 90%;
+      height: auto;
+  }
+
+  .cta{
+      position: relative;
+      top: 3300px;
+  }
+  .background6{
+      background-color: #5F37EF;
+      background-size: cover;
+      width: 100.9%;
+      height: 261px;
+      z-index: -1;
+      position: absolute;
+      left: -10px;
+      top: -5px;
+  }
+  .button6{
+      position: absolute;
+      left: 1392px;
+      top: 100px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      text-align: center;
+      color: #FFFFFF;
+      border-radius: 60px;
+      border-width: 2px;
+      border-color: #FFFFFF;
+      border-style: solid;
+      background:none;
+      padding: 25px 50px;
+  }
+  .cta p{
+      font-style: normal;
+      font-weight: 400;
+      font-size: 36px;
+      color: #FFFFFF;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      line-height: 52.5px;
+      letter-spacing: 0%;
+      width: 870px;
+      display: inline-block;
+      position: relative;
+      left: 470px;
+      top: 10px;
+      text-align: left;
+  }
+  .cta img{
+      position: absolute;
+      width: 5%;
+      right: 10%;
+      top: 160px;
+      z-index: 100;
+  }
+  footer{
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+      background-color: #7854F7;
+      width: 100.9%;
+      left: -10px;
+      right: -10px;
+      height: 773px;
+      top: 3350px;
+  }
+  .footer-grid{
+      position: absolute;
+      top: 50px;
+      align-self: center;
+      display: grid;
+      grid-template-columns: repeat(11, 121.5px);
+      grid-template-rows: 53px 250px 10px 400px;
+      gap: 2px;
+      background: none;
+  }
+  .footer-img{
+      grid-area: 1 / 2 / 1 / 11;
+      width:auto;
+      height: 53px;
+  }
+  .footer-logo{
+      grid-area: 2 / 6 / 2 / 7;
+      width: 185px;
+      height: auto;
+      padding-top: 150px;
+  }
+  .line {
+      border-color: #9A7DFF;
+      border-width: 0.0025px;
+      border-style: solid;
+      grid-column: span 11;
+      grid-row: 3;
+      width: 1356.5px;
+      height: 0.00000000000000001px;
+  }
+  .footer-grid h3{
+      text-align: left;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 52.5px;
+      letter-spacing: 0%;
+      text-transform: uppercase;
+      color: #FFFFFF;
+  }
+  .footer-grid p{
+      text-align: left;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 22px;
+      letter-spacing: 0%;
+      color: #FFFFFF;
+  }
+  .text1{
+      grid-area: 4 / 2 / 4 / 3;
+  }
+  .text2{
+      grid-area: 4 / 4 / 4 / 5;
+  }
+  .text3{
+      grid-area: 4 / 6 / 4 / 7;
+  }
+  .text4{
+      grid-area: 4 / 8 / 4 / 9;
+  }
+  .text5{
+      grid-area: 4 / 10 / 4 / 11;
+  }
+  .footer2{
+      position: relative;
+      top: 420px;
+      width: 100%;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+  }
+  .social-media{
+      position: absolute;
+      left: 230px;
+      top: 15px;
+      height: 20px;
+      width: auto;
+  }
+  .copyright{
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 22px;
+      text-align: center;
+      background: none;
+      position: absolute;
+      color: #272D4E;
+  }
+  .footer2 b{
+      font-weight: 400;
+      text-decoration: underline;
+  }
+  .auto{
+      position: absolute;
+      width: 183px;
+      height: 14px;
+      right: 230px;
+      top: 15px;
+  }
+
+
+
+@media (max-width: 768px) {
+  .header .logo img {
+    width: 130px;
+    left: 20px;
+  }
+
+  .header .nav ul {
+    flex-direction: column;
+    gap: 10px;
+    left: 0;
+    text-align: center;
+  }
+
+  .header .nav ul li a {
+    font-size: 16px;
+  }
+
+  .header .buttons {
+    flex-direction: column;
+    right: 20px;
+  }
+
+  .section-1 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .text-content {
+    position: relative;
+    left: 0;
+    max-width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .text-content h1 {
+    font-size: 45px;
+  }
+
+  .sec1-buttons {
+    flex-direction: column;
+  }
+
+  .sec1-buttons #start {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .sec1-buttons #custom {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .sec1-image img {
+    position: relative;
+    width: 80%;
+    margin-top: 20px;
+  }
+
+  .section-2 {
+    top: 1100px;
+    padding: 0 20px;
+  }
+
+  .section-2 h1 {
+    font-size: 36px;
+  }
+
+  .top-box, .centre-box, .bottom-box {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  #left, #middle, #right {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .blue {
+    font-size: 16px;
+  }
+
+  /* Section 3 */
+  .sec3-back img {
+    width: 100%;
+    height: auto;
+  }
+
+  .sec3-top img {
+    width: 100%;
+    height: auto;
+  }
+
+  .sec3-text {
+    text-align: center;
+    left: 0;
+    top: 300px;
+  }
+
+  .sec3-text h1 {
+    font-size: 28px;
+  }
+
+  .sec3-text p {
+    font-size: 16px;
+  }
+
+  .sec3-bottom img {
+    width: 80%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  /* Section 4 */
+  .testimonial {
+    text-align: center;
+    padding: 50px 20px;
+  }
+
+  .background4 {
+    height: 600px;
+  }
+
+  .centerimage img {
+    max-width: 90%;
+    height: auto;
+  }
+
+  /* Section 5 */
+  .people {
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .background5 {
+    height: 800px;
+  }
+
+  .section5-text h1 {
+    font-size: 40px;
+  }
+
+  .section5-text p {
+    font-size: 16px;
+  }
+
+  .teamphoto img {
+    width: 90%;
+    height: auto;
+  }
+
+  /* CTA Section */
+  .cta {
+    top: 3700px;
+    padding: 20px;
+  }
+
+  .background6 {
+    height: 200px;
+  }
+
+  .button6 {
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  .cta p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .cta img {
+    width: 50px;
+    height: auto;
+    top: 150px;
+  }
+
+  /* Footer */
+  footer {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-logo {
+    padding-top: 50px;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .footer-grid h3 {
+    font-size: 14px;
+  }
+
+  .footer-grid p {
+    font-size: 12px;
+  }
+
+  .footer2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .social-media {
+    height: 30px;
+  }
+
+  .copyright {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header .logo img {
+    width: 150px;
+    left: 40px;
+  }
+
+  .header .nav ul {
+    left: 0;
+    text-align: center;
+  }
+
+  .header .nav ul li a {
+    font-size: 18px;
+  }
+
+  .header .buttons {
+    right: 40px;
+  }
+
+  .section-1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-content {
+    max-width: 80%;
+  }
+
+  .text-content h1 {
+    font-size: 55px;
+  }
+
+  .sec1-buttons #start {
+    width: 250px;
+  }
+
+  .sec1-buttons #custom {
+    font-size: 18px;
+  }
+
+  .sec1-image img {
+    position: relative;
+    width: 60%;
+  }
+
+  .section-2 h1 {
+    font-size: 48px;
+  }
+
+  .top-box, .centre-box, .bottom-box {
+    width: 45%;
+    margin: 0 20px;
+  }
+
+  #left, #middle, #right {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+
+  .blue {
+    font-size: 18px;
+  }
+
+  .sec3-top img {
+    width: 80%;
+  }
+
+  .sec3-text {
+    left: 600px;
+    top: 100px;
+  }
+
+  .sec3-text h1 {
+    font-size: 30px;
+  }
+
+  .sec3-text p {
+    font-size: 18px;
+  }
+
+  .sec3-bottom img {
+    width: 60%;
+  }
+
+  /* Footer */
+  .footer-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
